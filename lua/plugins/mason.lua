@@ -1,6 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- Customize Mason
+-- Customize Mason plugins
 
 ---@type LazySpec
 return {
@@ -17,11 +15,23 @@ return {
         -- install formatters
         "stylua",
 
-        -- install debuggers
-        "debugpy",
-
         -- install any other package
         "tree-sitter-cli",
+        "lua-language-server",
+        "codespell",
+        "marksman",
+        "prettierd",
+        "bash-language-server",
+      },
+    },
+  },
+  {
+    "jay-babu/mason-nvim-dap.nvim",
+    -- overrides `require("mason-nvim-dap").setup(...)`
+    opts = {
+      ensure_installed = {
+        -- "python",
+        -- add more arguments for adding more debuggers
       },
     },
   },
