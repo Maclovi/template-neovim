@@ -39,7 +39,7 @@ return {
     servers = {
       -- "pyright"
       "basedpyright",
-      "ruff"
+      "ruff",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
