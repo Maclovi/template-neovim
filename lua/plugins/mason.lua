@@ -25,6 +25,7 @@ return {
         "marksman",
         "prettierd",
         "bash-language-server",
+        "rust-analyzer",
       },
     },
   },
