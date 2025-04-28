@@ -199,6 +199,10 @@
     "branch": "main",
     "commit": "6382540b2ae5de6c793d4aa2e3fe6dbb518505ec"
   },
+  "oxocarbon.nvim": {
+    "branch": "main",
+    "commit": "004777819ba294423b638a35a75c9f0c7be758ed"
+  },
   "plenary.nvim": {
     "branch": "master",
     "commit": "857c5ac632080dba10aae49dba902ce3abf91b35"
