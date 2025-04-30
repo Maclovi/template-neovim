@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -39,12 +37,42 @@ return {
     },
     -- vim options can be configured here
     options = {
-      opt = { -- vim.opt.<key>
-        relativenumber = true, -- sets vim.opt.relativenumber
-        number = true, -- sets vim.opt.number
-        spell = false, -- sets vim.opt.spell
-        signcolumn = "yes", -- sets vim.opt.signcolumn to yes
-        wrap = false, -- sets vim.opt.wrap
+      opt = {
+        -- Основные настройки
+        relativenumber = true,
+        number = true,
+        spell = false,
+        signcolumn = "yes",
+        wrap = false,
+        numberwidth = 2,
+
+        -- Отступы и форматирование
+        tabstop = 4,
+        shiftwidth = 4,
+        expandtab = true,
+        smartindent = true,
+        breakindent = true,
+
+        -- Визуальные улучшения
+        cursorline = true,
+        cursorcolumn = false,
+        termguicolors = true,
+        showmode = false,
+        laststatus = 3,
+
+        -- Производительность и поведение
+        updatetime = 250,
+        timeoutlen = 300,
+        scrolloff = 8,
+        sidescrolloff = 8,
+        undofile = true,
+        swapfile = false,
+
+        -- Работа с окнами и буферами
+        splitbelow = true,
+        splitright = true,
+        hidden = true,
+        mouse = "a",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
