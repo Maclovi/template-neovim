@@ -17,10 +17,10 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
-        "lua-language-server",
         "codespell",
         "marksman",
         "prettierd",
+        "lua-language-server",
         "bash-language-server",
       },
     },

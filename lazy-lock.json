@@ -9,7 +9,7 @@
   },
   "LuaSnip": {
     "branch": "master",
-    "commit": "03c8e67eb7293c404845b3982db895d59c0d1538"
+    "commit": "458560534a73f7f8d7a11a146c801db00b081df0"
   },
   "aerial.nvim": {
     "branch": "master",
@@ -77,7 +77,7 @@
   },
   "heirline.nvim": {
     "branch": "master",
-    "commit": "cc359b628266cb9a84b2d71c883f2b99e16473a0"
+    "commit": "fae936abb5e0345b85c3a03ecf38525b0828b992"
   },
   "helix-nvim": {
     "branch": "main",
@@ -89,7 +89,7 @@
   },
   "kanagawa.nvim": {
     "branch": "master",
-    "commit": "cc3b68b08e6a0cb6e6bf9944932940091e49bb83"
+    "commit": "debe91547d7fb1eef34ce26a5106f277fbfdd109"
   },
   "lazy.nvim": {
     "branch": "main",
@@ -125,7 +125,7 @@
   },
   "neo-tree.nvim": {
     "branch": "main",
-    "commit": "1ef260eb4f54515fe121a2267b477efb054d108a"
+    "commit": "f481de16a0eb59c985abac8985e3f2e2f75b4875"
   },
   "neoconf.nvim": {
     "branch": "main",
@@ -209,7 +209,7 @@
   },
   "oxocarbon.nvim": {
     "branch": "main",
-    "commit": "004777819ba294423b638a35a75c9f0c7be758ed"
+    "commit": "acdfdd5d319c36170b5ad2a120283bec2f450081"
   },
   "plenary.nvim": {
     "branch": "master",
@@ -221,7 +221,7 @@
   },
   "rustaceanvim": {
     "branch": "master",
-    "commit": "3a6af933d5870a419ee2be6e1bd397dfe46c96d2"
+    "commit": "5120207f90846704a74cbf043295698b009bd5de"
   },
   "smart-splits.nvim": {
     "branch": "master",

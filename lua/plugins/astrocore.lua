@@ -88,6 +88,17 @@ return {
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs
+        ["-"] = {
+          function()
+            local active = vim.diagnostic.is_enabled()
+            if active then
+              vim.diagnostic.enable(false)
+            else
+              vim.diagnostic.enable(true)
+            end
+          end,
+          desc = "off/on Diagnostic",
+        },
         ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
 
