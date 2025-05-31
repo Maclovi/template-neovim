@@ -20,10 +20,10 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
-        "lua-language-server",
         "codespell",
         "marksman",
         "prettierd",
+        "lua-language-server",
         "bash-language-server",
       },
     },
