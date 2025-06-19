@@ -221,7 +221,7 @@
   },
   "rustaceanvim": {
     "branch": "master",
-    "commit": "5120207f90846704a74cbf043295698b009bd5de"
+    "commit": "b554761a920d807c3a7e8388d0dd34205ae4fd0d"
   },
   "smart-splits.nvim": {
     "branch": "master",
