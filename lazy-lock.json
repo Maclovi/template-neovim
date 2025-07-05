@@ -99,6 +99,10 @@
     "branch": "main",
     "commit": "f59bd14a852ca43db38e3662395354cb2a9b13e0"
   },
+  "lsp-lens.nvim": {
+    "branch": "main",
+    "commit": "48bb1a7e271424c15f3d588d54adc9b7c319d977"
+  },
   "lspkind.nvim": {
     "branch": "master",
     "commit": "d79a1c3299ad0ef94e255d045bed9fa26025dab6"
