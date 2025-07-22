@@ -22,6 +22,8 @@ return {
         "prettierd",
         "lua-language-server",
         "bash-language-server",
+        "rust-analyzer",
+        "basedpyright",
       },
     },
   },
