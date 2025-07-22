@@ -6,6 +6,11 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 
 ## 🛠️ Installation
 
+#### Requirements
+
+1. Nodejs
+2. npx
+
 #### Make a backup of your current nvim and shared folder
 
 ```shell
