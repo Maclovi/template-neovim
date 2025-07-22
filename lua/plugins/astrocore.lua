@@ -86,6 +86,17 @@ return {
       -- first key is the mode
       n = {
         -- second key is the lefthand side of the map
+        --
+        -- Aerial mappings
+        ["<Leader>a"] = { desc = "Aerial (Code Outline)" }, -- Группа для Aerial
+        ["<Leader>ao"] = { function() require("aerial").open() end, desc = "Open Aerial" },
+        ["<Leader>at"] = { function() require("aerial").toggle() end, desc = "Toggle Aerial" },
+        ["<Leader>an"] = { function() require("aerial").next() end, desc = "Next Aerial symbol" },
+        ["<Leader>ap"] = { function() require("aerial").prev() end, desc = "Previous Aerial symbol" },
+        ["<Leader>af"] = {
+          function() require("aerial").open { focus = true, direction = "float" } end,
+          desc = "Open Aerial in floating window",
+        },
 
         -- navigate buffer tabs
         ["-"] = {
