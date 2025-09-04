@@ -32,6 +32,7 @@ return {
       "xml",
       "yaml",
       "rust",
+      "sql",
     },
   },
 }
